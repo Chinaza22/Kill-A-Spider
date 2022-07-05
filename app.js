@@ -61,12 +61,10 @@ square.addEventListener("mousedown", () =>{
 })
 });
 
-
 function moveSpider(){
 //SETTING TIME INTERVALS OF  THE SPIDER APPEARANCE
     timerId = setInterval(randomSquare, 800)
 }
-
 moveSpider()
 
 function countDown(){
